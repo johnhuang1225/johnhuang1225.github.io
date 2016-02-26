@@ -1,3 +1,18 @@
-.first {
-  color: blue;
+body {
+	background: fafafa;
+	margin: 0px;
+}
+
+.header {
+	background: #1b39ab;
+	height: 70px;	
+}
+
+
+.wrapper {
+	height: 700px;
+	width: 960px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+	background: #fff;
+	margin: 10px auto; // 置中。若寫4個值,分別為上右下左。若只寫2個值,第1個值為上下,第2個值為左右
 }
